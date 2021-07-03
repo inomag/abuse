@@ -196,7 +196,7 @@ class TimeLimit implements Adapter
       
         Authorization::reset();
 
-        $this->count++;
+        (int)$this->count++;
     }
 
     /**
